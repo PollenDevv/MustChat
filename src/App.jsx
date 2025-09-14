@@ -175,6 +175,7 @@ function App() {
                         : "text-left ml-2"
                     }`}
                   >
+                    <p>{session?.user?.user_metadata?.name}</p>
                     {formatTime(msg?.timestamp)}
                   </div>
                 </div>
